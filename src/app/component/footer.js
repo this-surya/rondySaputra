@@ -20,7 +20,7 @@ export default function Footer() {
                                 </li>
                             </ul>
                         </div>
-                        <div>
+                        {/* <div>
                             <h2 className="mb-6 text-sm font-semibold text-[#686D76] uppercase dark:text-white">Follow us</h2>
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                 <li className="mb-4">
@@ -30,7 +30,7 @@ export default function Footer() {
                                     <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Discord</a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> */}
                         {/* <div>
                             <h2 className="mb-6 text-sm font-semibold text-[#686D76] uppercase dark:text-white">Legal</h2>
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">

@@ -4,8 +4,10 @@ export default function About() {
     return (
         <div className="flex items-center flex-col md:flex-row" id="about">
 
-            <div className="md:w-5/10 w-fit h-screen bg-center bg-[url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFpam39CwUJCQu6iXs-E6PSXuErexX3vPJ1CFzmc8nJ8T_DYaKQGxIYQT34ShoyLigynsd8rWuMQmkR6-e56qorwI79P9e12YU2lKNUKwzdlAC9p4IsWtQG0E9t8DaDq_4orjXk0q0GS0/s1600/24.bmp')] bg-no-repeat scale-190">
-            </div>
+            {/* <div className="md:w-5/10 w-fit h-screen bg-center bg-[url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFpam39CwUJCQu6iXs-E6PSXuErexX3vPJ1CFzmc8nJ8T_DYaKQGxIYQT34ShoyLigynsd8rWuMQmkR6-e56qorwI79P9e12YU2lKNUKwzdlAC9p4IsWtQG0E9t8DaDq_4orjXk0q0GS0/s1600/24.bmp')] bg-no-repeat scale-190 hidden md:block">
+            </div> */}
+
+            <img className="md:w-5/10 w-full m-5" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFpam39CwUJCQu6iXs-E6PSXuErexX3vPJ1CFzmc8nJ8T_DYaKQGxIYQT34ShoyLigynsd8rWuMQmkR6-e56qorwI79P9e12YU2lKNUKwzdlAC9p4IsWtQG0E9t8DaDq_4orjXk0q0GS0/s1600/24.bmp" width="auto" height="auto"/>
 
             <div className="md:w-5/10 bg-[#373A40] text-white md:mx-5 mx-2 p-5 rounded">
                 <h2 className="text-5xl font-bold text-[#DC5F00] flex">About Me</h2>

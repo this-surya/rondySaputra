@@ -68,9 +68,9 @@ export default function Project() {
         <div className="px-5 w-full flex flex-wrap justify-center" id="project">
             <h2 className="w-full text-center text-5xl my-5 text-white font-bold">PROJECT</h2>
             {projectJson.map((project, key) => (
-                <div className="relative w-[29rem] m-3  bg-[#DC5F00] flex rounded" key={key}>
+                <div className="relative w-[29rem] m-3  bg-white flex rounded overflow-hidden" key={key}>
                     {/* <div className={`w-5/10 h-80 bg-cover bg-[url(' ${project.image} ')]`}></div> */}
-                    <img className="w-full h-80 " src={project.image} width="auto" height="auto" />
+                    <img className="w-full h-80 hover:scale-110 hover:cursor-pointer duration-500 ease-in-out" src={project.image} width="auto" height="auto" />
                     <h1 className="absolute backdrop-blur-xs bottom-0 w-full left-0 min-h-20 text-lg font-semibold text-gray-900 dark:text-white bg-black p-2 opacity-75">{project.title}</h1>
 
                     {/* <div className="w-5/10 m-5 ">
